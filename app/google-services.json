@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "907005582949",
+    "project_id": "salessync-41022",
+    "storage_bucket": "salessync-41022.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:907005582949:android:4132c0c09a25f186a4b08c",
+        "android_client_info": {
+          "package_name": "com.example.salessync"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8xa6EbApWsbZg8z-JKdhDQCcmfsiGFZU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
