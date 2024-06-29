@@ -3,4 +3,9 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_home">Home</string>
+    <string name="my_account">My Account</string>
+    <string name="reports">Reports</string>
+    <string name="settings">Settings</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
 </resources>
