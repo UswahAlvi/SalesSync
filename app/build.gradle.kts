@@ -53,6 +53,7 @@ android {
 dependencies {
 
     implementation(libs.appcompat)
+    implementation ("com.google.firebase:firebase-storage:21.0.0")
     implementation(libs.material)
     implementation(libs.activity)
     implementation(libs.constraintlayout)

@@ -12,6 +12,7 @@
     <fragment
         android:id="@+id/fragLogin"
         android:name="com.example.salessync.LoginFragment"
+        class="com.example.salessync.LoginFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:layout_editor_absoluteX="158dp"
@@ -20,6 +21,7 @@
     <fragment
         android:id="@+id/fragSignup"
         android:name="com.example.salessync.SignupFragment"
+        class="com.example.salessync.SignupFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:layout_editor_absoluteX="124dp"
