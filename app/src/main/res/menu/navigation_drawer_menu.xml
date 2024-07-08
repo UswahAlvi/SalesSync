@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:checkableBehavior="single">
+        <item android:title="@string/settings"
+            android:id="@+id/icon_settings"
+            android:icon="@drawable/settings"/>
+        <!--<item android:title="@string/threads"
+            android:id="@+id/icon_threads"
+            android:icon="@drawable/threads"/> -->
+        <item android:title="@string/your_activity"
+            android:id="@+id/icon_yourActivity"
+            android:icon="@drawable/activity"/>
+        <!--<item android:title="@string/archive"
+            android:id="@+id/icon_archive"
+            android:icon="@drawable/archive"/>
+        <item android:title="@string/qr_code"
+            android:id="@+id/icon_QRcode"
+            android:icon="@drawable/qr_code"/>-->
+        <item android:title="@string/saved"
+            android:id="@+id/icon_saved"
+            android:icon="@drawable/saved"/>
+        <!--<item android:title="@string/supervision"
+            android:id="@+id/icon_supervision"
+            android:icon="@drawable/supervision"/>
+        <item android:title="@string/orders_and_payments"
+            android:id="@+id/icon_payment"
+            android:icon="@drawable/payment"/>
+        <item android:title="@string/meta_verified"
+            android:id="@+id/icon_verified"
+            android:icon="@drawable/verified"/>
+        <item android:title="@string/close_friends"
+            android:id="@+id/icon_closeFriends"
+            android:icon="@drawable/close"/>-->
+    </group>
+</menu>
