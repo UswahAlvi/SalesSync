@@ -15,9 +15,9 @@ public class TabAdapter extends FragmentStateAdapter {
     @Override
     public Fragment createFragment(int position) {
         if (position == 1) {
-            return new InventoryFragment();
+            return new SalesFragment();
         }
-        return new SalesFragment();
+        return new InventoryFragment();
     }
 
     @Override

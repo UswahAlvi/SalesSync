@@ -53,7 +53,11 @@ android {
 dependencies {
 
     implementation(libs.appcompat)
+    implementation("com.android.volley:volley:1.2.1")
     implementation ("com.google.firebase:firebase-storage:21.0.0")
+    implementation ("com.firebaseui:firebase-ui-database:8.0.0")
+    implementation ("com.github.bumptech.glide:glide:4.12.0")
+    annotationProcessor ("com.github.bumptech.glide:compiler:4.12.0")
     implementation(libs.material)
     implementation(libs.activity)
     implementation(libs.constraintlayout)

@@ -1,2 +1,4 @@
-package com.example.salessync;public class ProductAdapter {
+package com.example.salessync;
+
+public class ProductAdapter {
 }
