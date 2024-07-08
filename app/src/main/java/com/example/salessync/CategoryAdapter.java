@@ -26,7 +26,6 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
 public class CategoryAdapter extends FirebaseRecyclerAdapter<Category, CategoryAdapter.CategoryViewHolder> {
-
     public CategoryAdapter(@NonNull FirebaseRecyclerOptions<Category> options) {
         super(options);
     }
@@ -47,7 +46,9 @@ public class CategoryAdapter extends FirebaseRecyclerAdapter<Category, CategoryA
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(v.getContext(), CategoryUpdateDelete.class);
-                intent.putExtra("CATEGORY_KEY", key);
+                TextView tv=holder.itemView.findViewById(R.id.tvCategoryName);
+                String name=tv.getText().toString().trim();
+                intent.putExtra("name",name);
                 v.getContext().startActivity(intent);
             }
         });
